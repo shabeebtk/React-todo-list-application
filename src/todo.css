@@ -1,0 +1,94 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+.user_main_div{
+    width: 50%;
+}
+
+.text_field{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input_field{
+    width: 600px;
+    height: 30px;
+    margin-right: 10px;
+    font-size: large;
+}
+
+.add_btn{
+    height: 37px;
+    width: 60px;
+    background-color: #EEEEEE;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.btn-2 {
+    background: rgb(160, 116, 231);
+    background: linear-gradient(0deg, rgb(132, 78, 218) 0%, rgb(116, 61, 165) 100%);
+    border: none;
+    color: white;
+  }
+.btn-2:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-2:hover {
+  box-shadow:  4px 4px 6px 0 rgba(37, 32, 32, 0.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+            inset -4px -4px 6px 0 rgba(61, 48, 48, 0.2),
+            inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+.todo_main_div{
+    display: flex;
+    justify-content: center;
+}
+.todo_list{
+    background-color: #176B87;
+    padding: 1px 20px 2px 20px;
+    color: #EEEEEE;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete_btn{
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    font-weight: 500;
+    border: 1 solid;
+    margin-left: 7px;
+}
+
+.user_div:hover{
+    background-color: #64CCC5;
+    color: black;
+}
+
+.counter_div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+input[type=checkbox] + label:before { content: "\f096"; } /* unchecked icon */
+input[type=checkbox] + label:before { letter-spacing: 10px; } /* space between checkbox and label */
+
+input[type=checkbox]:checked + label:before { content: "\f046"; } /* checked icon */
+input[type=checkbox]:checked + label:before { letter-spacing: 5px; } /* allow space for check mark */
+
+

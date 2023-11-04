@@ -1,0 +1,44 @@
+.count_div{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.count_btn{
+    height: 50px;
+    width: 27px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+
+.user_main_div{
+    width: 50%;
+}
+
+.user_master_div{
+    display: flex;
+    justify-content: center;
+}
+.user_div{
+    background-color: #176B87;
+    padding: 0px 50px 2px 50px;
+    color: #EEEEEE;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.user_div:hover{
+    background-color: #64CCC5;
+    color: black;
+}
+
+.counter_div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

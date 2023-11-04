@@ -1,0 +1,21 @@
+
+.user_main_div{
+    width: 50%;
+}
+.user_div{
+    background-color: #176B87;
+    padding: 0px 50px 2px 50px;
+    color: #EEEEEE;
+    border-radius: 10px;
+}
+
+.user_div:hover{
+    background-color: #64CCC5;
+    color: black;
+}
+
+.counter_div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
